@@ -1,5 +1,5 @@
 .form_main {
-    width: 220px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,6 +9,9 @@
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.062);
     position: relative;
     overflow: hidden;
+    margin-left: 500px;
+    margin-top: 150px;
+    height: 350px;
   }
   
   .form_main::before {

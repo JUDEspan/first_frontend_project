@@ -11,6 +11,7 @@ import Dashboard from "./components/Dashboard";
 import LogIn from "./components/logIn";
 import Mirage from "./Mirage/Mirag";
 import FileUpload from "./FileUpload";
+import Forget from "./components/Forget";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
             <Route path="/formik" element={<FormikSignUp />}/>
             <Route path="/mirage" element={<Mirage />}/>
             <Route path="*" element={<NotFound />}/>
+            <Route path="/forget" element={<Forget />}/>
         </Routes>
         </>
     )

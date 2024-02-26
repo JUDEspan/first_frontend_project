@@ -27,10 +27,10 @@ function App() {
             <Route path="/fetch" element={<Fetch />}/>
             <Route path="/home" element={<Home />}/>
             <Route path="/api" element={<ApiBackend/>}/>
-            <Route path="/formik" element={<FormikSignUp />}/>
-            <Route path="/login" element={<LogIn/>}/>
             <Route path="/upload" element={<FileUpload/>}/>
             </Route>
+            <Route path="/login" element={<LogIn/>}/>
+            <Route path="/formik" element={<FormikSignUp />}/>
             <Route path="/mirage" element={<Mirage />}/>
             <Route path="*" element={<NotFound />}/>
         </Routes>

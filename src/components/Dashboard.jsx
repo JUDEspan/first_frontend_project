@@ -1,8 +1,10 @@
-import React from 'react'
+
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div>Dashboard
+      <button><a href="formik"></a>Get Started</button>
+    </div>
   )
 }
 

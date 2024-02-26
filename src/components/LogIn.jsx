@@ -1,6 +1,7 @@
 import {useFormik } from "formik"
 import * as yup from "yup"
 import axios from "axios";
+import "./login.css"
 const LogIn = () => {
     let url = "http://localhost:3000/login";
   const formik = useFormik({
@@ -39,6 +40,7 @@ const LogIn = () => {
             <button type="submit"  className="btn btn-info">Login</button>
         </form>
     </div>
+
     </>
   )
 }

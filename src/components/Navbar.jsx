@@ -11,7 +11,7 @@ function CustomNavbar() { // Rename the function to CustomNavbar
           <Nav className="">
             <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="/Hello">Features</Nav.Link>
-            <Nav.Link href="/fetch">Pricing</Nav.Link>
+            <Nav.Link href="/fetch">Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

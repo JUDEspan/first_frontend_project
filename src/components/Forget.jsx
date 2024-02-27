@@ -2,7 +2,7 @@
 
 const Forget = () => {
   return (
-    <div>Forget</div>
+    <div>Please remember i beg o</div>
   )
 }
 

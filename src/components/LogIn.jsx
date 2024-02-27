@@ -2,7 +2,9 @@ import {useFormik } from "formik"
 import * as yup from "yup"
 import axios from "axios";
 import "./login.css"
+import { useNavigate } from "react-router-dom";
 const LogIn = () => {
+  const navigate = useNavigate()
     let url = "http://localhost:3000/login";
   const formik = useFormik({
     initialValues:{
@@ -12,7 +14,7 @@ const LogIn = () => {
     onSubmit: (values) => {
       axios.post(url, values)
       console.log(values);
-      // navigate("/login")
+      navigate("/dashboard")
     },
     validationSchema : yup.object({
       email: yup.string().email("valid email address").required("required"),

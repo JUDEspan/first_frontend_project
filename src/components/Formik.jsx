@@ -35,7 +35,8 @@ const FormikSignUp = () => {
     console.log(formik);
 
   return (
-    <div className="head">
+    <div className="head shadow">
+    <h1 className="ms-5 ps-4 my-4">Sign Up</h1>
     <form onSubmit={formik.handleSubmit}>
     <input 
     type="text"
